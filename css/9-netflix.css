@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-image: url('../img/practica1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    width: 80vw;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.header > .brand{
+    height: inherit;
+    width: 15vw;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header > .top-buttons{
+    height: inherit;
+    width: 30vw;
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header > .top-buttons > button{
+    width: 130px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.header > .top-buttons > button:hover{
+    background-color: darkred;
+    color: white;
+    border-color: darkred;
+    
+}
+.header > .top-buttons > .translate{
+    background-color: transparent;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #aeaeae;
+    color: white;
+    background-image: url('../img/lang.png');
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-left: 35px;
+}
+.header > .top-buttons > .log-in{
+    background-color: red;
+    color: white;
+    border-color: red
+}
+.content{
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.content > .title{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.content > .subtitle{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.content > .text-1{
+    font-size: 1rem;
+    padding: 10px;
+}
+.content > .begin{
+    gap: 20px;
+    padding: 5px;
+}    
+.content > .begin > .input-correo{
+    width: 200px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+    border: 1px;
+    border-radius: 5px;
+}
+.content > .begin > .comenzar{
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
